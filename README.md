@@ -66,6 +66,11 @@ More documentation and tooling will be published here as
 each piece reaches shippable state.
 
 ----------------------------------------------------------------
-
+https://luxaura.bandcamp.com
+https://youtube.com/LuxAuraOfficial
+https://github.com/luxauraofficial777
+https://facebook.com/LuxAuraOfficial
+https://ix03y3.bandcamp.com
+https://www.discogs.com/label/1081154-Lux-Aura
 Built by luxauraofficial777 under the Mandate of Sound Logic.
 One path. One truth. Evidence first.
