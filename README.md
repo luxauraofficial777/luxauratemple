@@ -1,5 +1,4 @@
                         LUX AURA TEMPLE
-================================================================
 
 A creative engineering ecosystem: retro game preservation,
 multi-agent AI orchestration, and the Lux Aura schematic
