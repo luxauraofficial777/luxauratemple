@@ -99,3 +99,38 @@ The figures below represent estimated North American retail unit sales, publishe
 ---
 
 ## 4. Master Comparative Hierarchy
+
+[Net Profit Parity Scale: Units of Void Walkers X64 Needed]
+
+200k Units ──┤ ~198k: Final Fantasy I (NES)
+150k Units ──┤ ~139k: Final Fantasy IV (SNES)
+100k Units ──┤
+75k Units ──┤ ~73k:  Dragon Warrior I (NES)
+50k Units ──┤
+35k Units ──┤ ~33k:  Breath of Fire I / Dragon Warrior II
+│ ~26k:  Breath of Fire II
+20k Units ──┤ ~22k:  Lunar: The Silver Star
+│ ~18k:  Suikoden I
+15k Units ──┤ ~15k:  Dragon Warrior III
+│ ~13k:  Lunar: Eternal Blue
+1 Unit  ──┴── 1:   Suikoden II / Dragon Warrior IV (Net Loss / Break-even)
+
+
+---
+
+## 5. Architectural & Systemic Linchpins (IIRIS Engine)
+
+The economic performance of *Void Walkers X64* is directly underwritten by its proprietary, zero-middleware engine architecture:
+
+1. **Deterministic Lineage Integration:** Clean-room implementation drawing structural mechanical strengths from Chunsoft (*DQIV*, *DWVII* collision/dialogue snapping), Wolf Team/Tri-Ace (*Tales of Phantasia*, *Valkyrie Profile* combat cadence), and Squaresoft (*Xenogears* scale).
+2. **Survival-Driven Traversal Design:** Replacing open aerial overworlds with a resource-constrained node-based framework (*Oregon Trail* attrition mechanics coupled with *Final Fantasy Tactics* tactical encounters).
+3. **High-Impact Contrast in Spatial Depth:** Direct transition from low-overhead, resource-driven map traversal to 2.5D isometric instance dungeons complete with real-time dynamic ribbons, procedural GPU particle synthesis, and spectrogram-based visual shaders.
+4. **VRAM Optimization & Portability:** Operating within strict hardware boundaries (128 MB VRAM budget) ensuring frictionless execution across broad hardware profiles without third-party runtime bloat.
+
+---
+
+## 6. Strategic Takeaways
+
+* **The Break-Even Advantage:** Because production debt is absorbed via solo engineering and custom agent pipelines, *Void Walkers X64* operates free of external recoupment obligations.
+* **High Cash-Flow Density:** Capturing ~$13.64 per unit means that achieving modest indie cult status (**15,000 to 35,000 units**) matches or surpasses the real net profits extracted by historic publishers on standard North American releases of *Suikoden*, *Lunar*, *Breath of Fire*, and late-era *Dragon Warrior*.
+* **Capital Efficiency:** In the digital direct-to-consumer distribution model, commercial success does not require half a million units. Sustainable f
