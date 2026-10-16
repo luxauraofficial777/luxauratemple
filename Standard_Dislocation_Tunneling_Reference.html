@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Condensed-Matter Reference: Dislocation Kink-Pair Tunneling &amp; Phonon Decoherence</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
+      line-height: 1.65;
+      color: #1f2937;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2.5rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      border: 1px solid #e5e7eb;
+    }
+    h1 {
+      font-size: 1.75rem;
+      color: #111827;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.75rem;
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.35rem;
+      color: #1e3a8a;
+      margin-top: 2rem;
+      border-bottom: 1px solid #f3f4f6;
+      padding-bottom: 0.35rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      color: #374151;
+      margin-top: 1.35rem;
+    }
+    .scope-note {
+      background: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      padding: 1rem 1.25rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      margin-bottom: 1.75rem;
+    }
+    .formula-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 0.9rem 1.25rem;
+      font-family: "Cambria Math", "Latin Modern Math", Georgia, serif;
+      font-size: 1.05rem;
+      margin: 1rem 0;
+      overflow-x: auto;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 0.6rem 0.75rem;
+      text-align: right;
+    }
+    th {
+      background-color: #f3f4f6;
+      color: #111827;
+      font-weight: 600;
+      text-align: right;
+    }
+    th:first-child, td:first-child {
+      text-align: left;
+      font-weight: 600;
+    }
+    tr:nth-child(even) {
+      background-color: #f9fafb;
+    }
+    code {
+      background: #f1f5f9;
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Condensed-Matter Reference: Dislocation Kink-Pair Tunneling &amp; Phonon Decoherence</h1>
+
+    <div class="scope-note">
+      <strong>Scope Note:</strong> In keeping with our focus on established, peer-reviewed condensed-matter physics and materials science, this reference covers the standard models of <strong>Petukhov&ndash;Pokrovskii (1973)</strong> dislocation kink-pair quantum tunneling, <strong>Caldeira&ndash;Leggett (1981)</strong> dissipative phonon drag, <strong>B&uuml;ttiker&ndash;Landauer (1982)</strong> oscillating-barrier traversal, and <strong>Glauber coherent phonon</strong> thermal decoherence in crystalline solids. It does not model speculative spacetime metric operators or temporal drift, as mechanical strain and acoustic phonons in standard physics operate strictly within the crystal lattice and do not alter spacetime metrics or gravity.
+    </div>
+
+    <h2>1. Petukhov&ndash;Pokrovskii Euclidean Bounce Formulation (near &sigma; &rarr; &sigma;<sub>P</sub>)</h2>
+    <p>
+      In a crystalline lattice with Peierls period <em>a<sub>p</sub></em> and Burgers vector <em>b</em>, a dislocation line of effective mass per unit length <em>m<sub>d</sub> &approx; &rho;b<sup>2</sup> / (4&pi;)</em> and line tension <em>&kappa;<sub>d</sub> &approx; Gb<sup>2</sup> / (4&pi;)</em> moves across the periodic Peierls washboard potential <em>U<sub>P</sub>(u)</em>. When an applied shear stress <em>&sigma;</em> approaches the Peierls stress <em>&sigma;<sub>P</sub></em>, the dimensionless stress deficit is defined as:
+    </p>
+    <div class="formula-box">
+      &epsilon; = 1 &minus; (&sigma; / &sigma;<sub>P</sub>) &ll; 1
+    </div>
+    <p>
+      Expanding the washboard potential near the inflection point yields the universal cubic metastability potential per unit length:
+    </p>
+    <div class="formula-box">
+      &Delta;V(u&#771;) &approx; b &sigma;<sub>P</sub> [ &epsilon; u&#771; &minus; (&pi; / a<sub>p</sub>) u&#771;<sup>2</sup> + (2&pi;<sup>2</sup> / 3a<sub>p</sub><sup>2</sup>) u&#771;<sup>3</sup> ]
+    </div>
+    <p>
+      In the Euclidean path-integral formulation (<em>t &rarr; &minus;i&tau;</em>), rescaling the displacement (<em>u&#771; &prop; a<sub>p</sub> &epsilon;<sup>1/2</sup></em>), spatial coordinate along the dislocation line (<em>x &prop; l<sub>0</sub> &epsilon;<sup>&minus;1/4</sup></em>), and imaginary time (<em>&tau; &prop; &tau;<sub>0</sub> &epsilon;<sup>&minus;1/4</sup></em>) yields the characteristic 5/4 power law derived by Petukhov and Pokrovskii (1973):
+    </p>
+    <div class="formula-box">
+      S<sub>B</sub>(&epsilon;) / &#8463; = (S<sub>0</sub> / &#8463;) &epsilon;<sup>5/4</sup>, &nbsp;&nbsp;&nbsp;&nbsp; &Gamma;<sub>tun</sub>(&epsilon;) = &nu;<sub>0</sub> exp(&minus;S<sub>B</sub>(&epsilon;) / &#8463;)
+    </div>
+
+    <h2>2. B&uuml;ttiker&ndash;Landauer Acoustic Modulation &amp; Caldeira&ndash;Leggett Dissipation</h2>
+    <h3>Oscillating Stress Field: &sigma;(t) = &sigma;<sub>0</sub> + &sigma;<sub>ac</sub> cos(&omega;<sub>ac</sub>t)</h3>
+    <p>
+      When an ultrasonic stress field modulates the barrier height, the characteristic imaginary-time traversal ("bounce") duration across the barrier is:
+    </p>
+    <div class="formula-box">
+      &tau;<sub>BL</sub>(&epsilon;) = &tau;<sub>0</sub> &epsilon;<sup>&minus;1/4</sup>, &nbsp;&nbsp;&nbsp;&nbsp; &tau;<sub>0</sub> = &radic;[ m<sub>d</sub> a<sub>p</sub> / (2&pi; b &sigma;<sub>P</sub>) ]
+    </div>
+    <p>
+      For typical silicate/oxide crystal parameters (<em>&tau;<sub>0</sub> &approx; 0.53 ps</em>) and ultrasonic frequencies (<em>f<sub>ac</sub> = 20&ndash;100 kHz</em>), the adiabaticity parameter satisfies <em>&gamma;<sub>BL</sub> = &omega;<sub>ac</sub> &tau;<sub>BL</sub>(&epsilon;) &sim; 10<sup>&minus;7</sup> &ll; 1</em>. Because the acoustic period (<em>10&ndash;50 &mu;s</em>) is seven orders of magnitude longer than the barrier traversal time (<em>0.5&ndash;2 ps</em>), the dislocation experiences the ultrasonic wave in the <strong>quasi-static (adiabatic) limit</strong>, reducing the instantaneous stress deficit at the peak of the acoustic cycle to <em>&epsilon;<sub>eff</sub> = 1 &minus; (&sigma;<sub>0</sub> + &sigma;<sub>ac</sub>)/&sigma;<sub>P</sub></em>.
+    </p>
+
+    <h3>Caldeira&ndash;Leggett Phonon-Drag Suppression</h3>
+    <p>
+      Coupling between the moving dislocation core and the thermal bath of lattice phonons introduces a viscous drag coefficient <em>&eta;</em> (in Pa&middot;s). In the Caldeira&ndash;Leggett (1981) nonlocal action formulation, Ohmic dissipation adds a positive correction <em>&Delta;S<sub>CL</sub></em> to the Euclidean bounce action:
+    </p>
+    <div class="formula-box">
+      &Delta;S<sub>CL</sub>(&epsilon;, &eta;) &prop; &eta; l<sub>c</sub>(&epsilon;) &Delta;u(&epsilon;)<sup>2</sup> = &eta; l<sub>0</sub> a<sub>p</sub><sup>2</sup> &epsilon;<sup>3/4</sup>
+    </div>
+    <p>
+      At room temperature (<em>&eta;<sub>high</sub> &sim; 5 &times; 10<sup>&minus;4</sup> Pa&middot;s</em>), <em>&Delta;S<sub>CL</sub> / &#8463; &gg; 1</em>, which strongly suppresses macroscopic quantum tunneling and ensures that room-temperature acoustic softening (the Blaha effect) is governed by classical thermal activation and stress superposition rather than quantum tunneling. Quantum kink-pair tunneling is only physically observable at cryogenic temperatures (<em>T &lesssim; 1&ndash;10 K</em>) when <em>&epsilon; &rarr; 0</em>.
+    </p>
+
+    <h2>3. Coherent Glauber Phonon States &amp; Thermal Decoherence</h2>
+    <p>
+      An ultrasonic transducer driving a macroscopic crystal mode <em>q<sub>0</sub></em> creates a coherent Glauber phonon state <em>|&beta;<sub>q0</sub>&rang;</em> with mean phonon occupation <em>N<sub>q0</sub> = |&beta;<sub>q0</sub>|<sup>2</sup> = E<sub>mode</sub> / (&#8463;&omega;<sub>q0</sub>) &gg; 1</em>. Anharmonic three-phonon scattering couples the driven acoustic mode to the thermal bath at temperature <em>T</em>:
+    </p>
+    <div class="formula-box">
+      1 / Q<sub>eff</sub>(T) = 1 / Q<sub>0</sub> + &alpha;<sub>anh</sub> T<sup>3</sup>, &nbsp;&nbsp;&nbsp;&nbsp; &tau;<sub>coh</sub>(T) = 2 Q<sub>eff</sub>(T) / &omega;<sub>q0</sub>, &nbsp;&nbsp;&nbsp;&nbsp; n<sub>th</sub>(T) = [exp(&#8463;&omega;<sub>q0</sub> / k<sub>B</sub>T) &minus; 1]<sup>&minus;1</sup>
+    </div>
+
+    <h2>4. Verified Numerical Data (<code>verify_quantum_resonance.py</code>)</h2>
+    <p>
+      <strong>Material Parameters:</strong> <em>b = 2.5 &Aring;</em>, <em>a<sub>p</sub> = 2.5 &Aring;</em>, <em>G = 30 GPa</em>, <em>&rho; = 2,850 kg/m<sup>3</sup></em>, <em>c<sub>s</sub> = 3,244.4 m/s</em>, <em>&sigma;<sub>P</sub> = 50 MPa</em>, <em>S<sub>0</sub>/&#8463; = 196.59</em>, <em>&tau;<sub>0</sub> = 0.5324 ps</em>.
+    </p>
+
+    <h3>Table 1: Euclidean Bounce Action &amp; Damping Suppression vs. Stress Deficit &epsilon;</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Stress Deficit &epsilon;</th>
+          <th>S<sub>B</sub>(&epsilon;)/&#8463; (Undamped)</th>
+          <th>&tau;<sub>BL</sub>(&epsilon;) (ps)</th>
+          <th>&Delta;S<sub>CL</sub>/&#8463; (&eta;<sub>low</sub> = 10<sup>&minus;5</sup> Pa&middot;s)</th>
+          <th>&Delta;S<sub>CL</sub>/&#8463; (&eta;<sub>high</sub> = 5&times;10<sup>&minus;4</sup> Pa&middot;s)</th>
+          <th>log<sub>10</sub>(&Gamma;/&nu;<sub>0</sub>) (Low Damping)</th>
+          <th>log<sub>10</sub>(&Gamma;/&nu;<sub>0</sub>) (Room-T Damping)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>0.500</td><td>82.656</td><td>0.6331</td><td>6.088</td><td>304.380</td><td>-38.54</td><td>-168.09</td></tr>
+        <tr><td>0.400</td><td>62.587</td><td>0.6695</td><td>5.152</td><td>257.589</td><td>-29.42</td><td>-139.05</td></tr>
+        <tr><td>0.300</td><td>43.679</td><td>0.7193</td><td>4.152</td><td>207.577</td><td>-20.77</td><td>-109.12</td></tr>
+        <tr><td>0.200</td><td>26.298</td><td>0.7961</td><td>3.060</td><td>153.012</td><td>-12.75</td><td>-77.87</td></tr>
+        <tr><td>0.150</td><td>18.368</td><td>0.8555</td><td>2.466</td><td>123.303</td><td>-9.05</td><td>-61.53</td></tr>
+        <tr><td>0.100</td><td>11.057</td><td>0.9467</td><td>1.818</td><td>90.889</td><td>-5.59</td><td>-44.27</td></tr>
+        <tr><td>0.075</td><td>7.723</td><td>1.0173</td><td>1.465</td><td>73.242</td><td>-3.99</td><td>-35.16</td></tr>
+        <tr><td>0.050</td><td>4.649</td><td>1.1258</td><td>1.080</td><td>53.992</td><td>-2.49</td><td>-25.47</td></tr>
+        <tr><td>0.025</td><td>1.954</td><td>1.3388</td><td>0.641</td><td>32.069</td><td>-1.13</td><td>-14.78</td></tr>
+        <tr><td>0.010</td><td>0.622</td><td>1.6836</td><td>0.323</td><td>16.148</td><td>-0.41</td><td>-7.28</td></tr>
+        <tr><td>0.005</td><td>0.262</td><td>2.0020</td><td>0.192</td><td>9.591</td><td>-0.20</td><td>-4.28</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Table 2: Acoustic Phonon Quality Factor &amp; Thermal Occupation (f = 25 kHz, Q<sub>0</sub> = 2,500)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Temperature T (K)</th>
+          <th>Effective Quality Factor Q<sub>eff</sub>(T)</th>
+          <th>Classical Ring-Down Time &tau;<sub>coh</sub> (ms)</th>
+          <th>Thermal Phonon Occupation n<sub>th</sub>(T)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>4 K</td><td>2,422.5</td><td>15.422</td><td>3.334 &times; 10<sup>6</sup></td></tr>
+        <tr><td>20 K</td><td>2,381.0</td><td>15.158</td><td>1.667 &times; 10<sup>7</sup></td></tr>
+        <tr><td>77 K</td><td>1,599.3</td><td>10.181</td><td>6.418 &times; 10<sup>7</sup></td></tr>
+        <tr><td>150 K</td><td>930.2</td><td>5.922</td><td>1.250 &times; 10<sup>8</sup></td></tr>
+        <tr><td>300 K</td><td>735.3</td><td>4.681</td><td>2.500 &times; 10<sup>8</sup></td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
